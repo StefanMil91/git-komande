@@ -1,3 +1,4 @@
-function display() {
+function display(arg) {
+    console.log(arg);
 
 }
