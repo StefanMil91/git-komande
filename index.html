@@ -56,7 +56,24 @@
       git add .index.html - (koji fajl zelimo) - Staging Area
       git add . - (. oznacava sve fajlove u projektu) - Staging Area
       git commit -m "Poruka" (da sacuvamo promene - trenutni snimak projekta)
-
+      git log - izbacuje sve promene
+      git log -1 - izbacuje poslednju promenu
+      git log -p izbacuje razlike - u kom commitu su nastale promene
+      git log -pretty=oneline (infirmacije u jednoj liniji)
+      git log --pretty=format:"%s" - izbacuje samo poruke na promenama
+      git log --pretty=forma t:"%s %an" - poruke i ko je autor promene....
+      moze i po datumu, useru, samoj promeni ako je function
+      git revert 3018..HEAD - (prve cetri cifre upisati(commit has number),
+      vraca na taj commit, postaje activan)
+      git branch "name" - pravi novu granu, po defultu je master (HEAD ->
+      master, dev) - HEAD strelica pokazuje koja je aktuelna
+      git checkout dev - menja sa master na brench dev ili neku drugu granu
+      git branch -D dev - brise odredjenu granu
+      git merge urgent - updejtuje master branch ili na kojoj smo odredjenom,
+      o ovom slucaju, urgent granom
+      git push -u origin master - slanje fajlova na git Hub sever
+      git pull --all - povlacenje sa gitHub a svih napravljenih promena
+      git remote add origin pa URL - postavljanje localnog projekta na git hub
     </p>
   </ul>
 
