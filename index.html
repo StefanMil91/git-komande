@@ -2,36 +2,54 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIT</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIT</title>
 </head>
 
 <body>
-    <h1>Hello World!</h1>
-    <ul>
-        <li>git init - "Inicijacija git - a"</li>
-        <li>git config user.name "Ime Prezime"</li>
-        <li>git config user.mail "e-maiil@gmail.com"</li>
-        <li>git status - (sta se trenutno desava iu nasem projektu)</li>
-        <li>git add .index.html - (koji fajl zelimo) - Staging Area</li>
-        <li>git add . - (. oznacava sve fajlove u projektu) - Staging Area</li>
-        <li>git commit -m "Poruka" (da sacuvamo promene - trenutni snimak projekta)</li>
-        <li>git log - izbacuje sve promene</li>
-        <li>git log -1 - izbacuje poslednju promenu</li>
-        <li>git log -p izbacuje razlike - u kom commitu su nastale promene</li>
-        <li>git log -pretty=oneline (infirmacije u jednoj liniji)</li>
-        <li>git log --pretty=format:"%s" - izbacuje samo poruke na promenama</li>
-        <li>git log --pretty=format:"%s %an" - poruke i ko je autor promene.... moze i po datumu, useru, samoj promeni
-            ako je function</li>
-        <li>git revert 3018..HEAD - (prve cetri cifre upisati(commit has number), vraca na taj commit, postaje activan)
-        </li>
-        <li>git branch "name" - pravi novu granu, po defultu je master (HEAD -> master, dev) - HEAD strelica pokazuje
-            koja je aktuelna</li>
-        <li>git checkout dev - menja sa master na brench dev ili neku drugu granu</li>
-        <li>git branch -D dev - brise odredjenu granu</li>
-        <li>git merge urgent - updejtuje master branch odredjenom, o ovom slucaju, urgent granom</li>
-    </ul>
+  <h1>Hello World!</h1>
+  <ul>
+    <li>git init - "Inicijacija git - a"</li>
+    <li>git config user.name "Ime Prezime"</li>
+    <li>git config user.mail "e-maiil@gmail.com"</li>
+    <li>git status - (sta se trenutno desava iu nasem projektu)</li>
+    <li>git add .index.html - (koji fajl zelimo) - Staging Area</li>
+    <li>git add . - (. oznacava sve fajlove u projektu) - Staging Area</li>
+    <li>
+      git commit -m "Poruka" (da sacuvamo promene - trenutni snimak projekta)
+    </li>
+    <li>git log - izbacuje sve promene</li>
+    <li>git log -1 - izbacuje poslednju promenu</li>
+    <li>git log -p izbacuje razlike - u kom commitu su nastale promene</li>
+    <li>git log -pretty=oneline (infirmacije u jednoj liniji)</li>
+    <li>git log --pretty=format:"%s" - izbacuje samo poruke na promenama</li>
+    <li>
+      git log --pretty=forma t:"%s %an" - poruke i ko je autor promene....
+      moze i po datumu, useru, samoj promeni ako je function
+    </li>
+    <li>
+      git revert 3018..HEAD - (prve cetri cifre upisati(commit has number),
+      vraca na taj commit, postaje activan)
+    </li>
+    <li>
+      git branch "name" - pravi novu granu, po defultu je master (HEAD ->
+      master, dev) - HEAD strelica pokazuje koja je aktuelna
+    </li>
+    <li>
+      git checkout dev - menja sa master na brench dev ili neku drugu granu
+    </li>
+    <li>git branch -D dev - brise odredjenu granu</li>
+    <li>
+      git merge urgent - updejtuje master branch ili na kojoj smo odredjenom,
+      o ovom slucaju, urgent granom
+    </li>
+    <li>git push -u origin master - slanje fajlova na git Hub sever</li>
+    <li>git pull --all - povlacenje sa gitHub a svih napravljenih promena</li>
+    <li>git remote add origin pa URL - postavljanje localnog projekta na git hub</li>
+  </ul>
+
+
 </body>
 
 </html>
